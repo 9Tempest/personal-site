@@ -1,47 +1,55 @@
 // TODO Add a couple lines about each project
 const data = [
   {
-    title: 'Nearest Dollar',
-    subtitle: '2015 BVP Hackathon',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
+    title: 'User-level threading in C/C++',
+    subtitle: 'Two methods of adding User-level threading into C/C++',
+    image: '/images/projects/user-level.png',
+    link: 'https://git.uwaterloo.ca/mkarsten/libfibre/-/tree/master/gcc',
+    date: '2022-09-01',
     desc:
-      'Built for a social impact hackathon. '
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
+      'Two methods of adding User-level threading into C/C++: we add user-level threads provided by Libfibre into C++ by implementing a glue layer between '
+      + 'std::thread and Libfibre in GCC; we add user-level threads into C by providing an implementation of Pthread utilizing user-level threading primitives provided by Cforall runtime system',
   },
   {
-    title: 'Harvest',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: 'https://devpost.com/software/harvest',
-    image: '/images/projects/harvest.jpg',
-    date: '2015-09-20',
+    title: 'Pokemon Fight!',
+    subtitle: 'A 3D pokemon battle game by C++ and OpenGL',
+    image: '/images/projects/pokemon.png',
+    link: 'https://www.youtube.com/watch?v=aLH9dgIDTGw&ab_channel=zhenyanzhu',
+    date: '2022-09-01',
     desc:
-      'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '
-      + 'for crops. Harvest was designed to catch irrigation leaks, overwatering, '
-      + 'and nutrient deficiencies at an affordable price for the developing world.',
+      'A 3D battle game implemented in C++ with OpenGL. The player will control Pikachu to defeat Snorlax.'
+      + ' In this project, I programmed a key-frame system, Phong/Toon shading, hierarchy transformation, particle systems, texture mapping, 3D sound system, shadow mapping, and etc.'
+      + ' All of the scene and Pokemons were entirely modelled by myself via Lua script.',
   },
   {
-    title: 'Space Potato',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: 'http://www.spacepotato.org',
-    image: '/images/projects/spacepotato.jpg',
-    date: '2015-06-28',
+    title: 'Real-time MicroKernel & Train Control System',
+    subtitle: 'The predecessor of QNX operating system',
+    image: '/images/projects/trains.jpg',
+    link: 'https://git.uwaterloo.ca/z277zhu/trains-docs',
+    date: '2022-05-01',
     desc:
-      'Launched a potato battery powered weather balloon with two cameras '
-      + 'and gps transponder. Resulting photos were published in a coffee table book. '
-      + 'You can email me for a copy.',
+      'Developed a real-time microkernel from scratch in C and ARM on ts7200 embedded board. '
+      + ' We first designed and developed Task primitives, serial port and Timer device driver with a client-server pattern, providing user tasks with timing and I/O functionalities.'
+      + ' Then, we established a train control system running on the kernel, which routed trains to specific landmarks within 0.2cm error and monitored trains` reserved track segments to automate collision detection and recovery',
   },
   {
-    title: 'Cat Detector',
-    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-    image: '/images/projects/catdetector.jpg',
-    date: '2015-05-15',
+    title: 'Joos Compiler',
+    subtitle: 'A large subset of Java compiler',
+    image: '/images/projects/joosc.png',
+    link: 'https://git.uwaterloo.ca/z277zhu/joosc-docs',
+    date: '2022-01-01',
     desc:
-      'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
-      + 'Over 60,000 cats were classified before server bills made the project too expensive '
-      + 'to continue hosting.',
+      'A strong-typed OO programming language Compiler written in Java, which incorporates a large subset of Java features, including inheritance, Interface, unreachable statement checking, polymorphism and etc.,'
+      + ' generating intermediate representation first then converting to i386 assembly',
+  },
+  {
+    title: 'Lacs Compiler',
+    subtitle: 'A functional programming language with GC',
+    image: '/images/projects/lacs.png',
+    date: '2020-09-01',
+    desc:
+      'A functional programming language Compiler written in Scala, which incorporates a GC with Cheney`s algorithm and high-level functional features, such as closure and nested functions'
+      + '. This compiler generates MIPS assembly code.',
   },
 ];
 

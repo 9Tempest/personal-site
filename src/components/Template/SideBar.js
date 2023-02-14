@@ -12,21 +12,17 @@ const SideBar = () => (
         <img src={`${PUBLIC_URL}/images/me.jpg`} alt="" />
       </Link>
       <header>
-        <h2>Michael D&apos;Angelo</h2>
-        <p><a href="mailto:michael.l.dangelo@gmail.com">michael.l.dangelo@gmail.com</a></p>
+        <h2>Luke Zhu</h2>
+        <p><a href="lukezhu167@gmail.com">lukezhu167@gmail.com</a></p>
       </header>
     </section>
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Hi, I&apos;m Michael. I like building things.
-        I am a <a href="https://icme.stanford.edu/">Stanford ICME</a> graduate, YC Alumni, and
-        the co-founder and CTO of <a href="https://arthena.com">Arthena</a>. Before Arthena I was
-        at <a href="https://matroid.com">Matroid</a>
-        , <a href="https://planet.com">Planet</a>
-        , <a href="https://planetaryresources.com">Planetary Resources</a>
-        , <a href="https://facebook.com">Facebook</a>
-        , and <a href="https://seds.org">SEDS</a>.
+      <p>Hi, I&apos;m Luke.
+        I just graduated from <a href="https://cs.uwaterloo.ca/">University of Waterloo Computer Science</a>. I was Undergraduate Research Assistant
+        with <a href="https://plg.uwaterloo.ca/~pabuhr/">Prof. Peter Buhr</a> and <a href="https://cs.uwaterloo.ca/~mkarsten/">Prof. Martin Karsten</a> at the University of Waterloo in 2022.
+        I was C++ R&D Intern at Baidu and Momenta in 2021.
       </p>
       <ul className="actions">
         <li>
@@ -37,7 +33,7 @@ const SideBar = () => (
 
     <section id="footer">
       <ContactIcons />
-      <p className="copyright">&copy; Michael D&apos;Angelo <Link to="/">mldangelo.com</Link>.</p>
+      <p className="copyright">&copy; lukezhu167@gmail.com <Link to="/">lukezhu167@gmail.com</Link>.</p>
     </section>
   </section>
 );

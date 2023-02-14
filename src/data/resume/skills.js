@@ -1,71 +1,16 @@
 // TODO: Add Athletic Skills, Office Skills,
-// Data Engineering, Data Science, ML Engineering, ... ?
+// System, Data Science, ML Engineering, ... ?
 
 const skills = [
   {
-    title: 'Javascript',
-    competency: 4,
-    category: ['Web Development', 'Languages', 'Javascript'],
-  },
-  {
-    title: 'Node.JS',
-    competency: 3,
-    category: ['Web Development', 'Javascript'],
-  },
-  {
-    title: 'React',
-    competency: 3,
-    category: ['Web Development', 'Javascript'],
-  },
-  {
     title: 'Bash',
-    competency: 2,
+    competency: 3,
     category: ['Tools', 'Languages'],
   },
   {
-    title: 'Amazon Web Services',
-    competency: 4,
-    category: ['Web Development', 'Tools'],
-  },
-  {
-    title: 'Heroku',
-    competency: 2,
-    category: ['Web Development', 'Tools'],
-  },
-  {
-    title: 'MongoDB',
-    competency: 3,
-    category: ['Web Development', 'Databases'],
-  },
-  {
-    title: 'ElasticSearch',
-    competency: 2,
-    category: ['Web Development', 'Databases'],
-  },
-  {
     title: 'PostgreSQL/SQLite3/SQL',
-    competency: 4,
+    competency: 2,
     category: ['Web Development', 'Databases', 'Languages'],
-  },
-  {
-    title: 'Redis',
-    competency: 3,
-    category: ['Web Development', 'Databases'],
-  },
-  {
-    title: 'Data Mining',
-    competency: 3,
-    category: ['Data Science'],
-  },
-  {
-    title: 'Express.JS',
-    competency: 2,
-    category: ['Web Development', 'Javascript'],
-  },
-  {
-    title: 'D3',
-    competency: 2,
-    category: ['Web Development', 'Javascript'],
   },
   {
     title: 'Flask',
@@ -73,48 +18,23 @@ const skills = [
     category: ['Web Development', 'Python'],
   },
   {
-    title: 'Git/Mercurial',
-    competency: 3,
+    title: 'Git',
+    competency: 4,
     category: ['Tools'],
   },
   {
-    title: 'Kubernetes',
-    competency: 2,
-    category: ['Tools', 'Data Engineering'],
-  },
-  {
-    title: 'Google Cloud Compute',
-    competency: 2,
-    category: ['Tools', 'Web Development'],
-  },
-  {
     title: 'Numpy',
-    competency: 3,
-    category: ['Data Science', 'Data Engineering', 'Python'],
+    competency: 4,
+    category: ['Data Science', 'System', 'Python'],
   },
   {
-    title: 'Numba',
-    competency: 2,
-    category: ['Data Science', 'Data Engineering', 'Python'],
-  },
-  {
-    title: 'Tensorflow + Keras',
+    title: 'Pytorch',
     competency: 3,
     category: ['Data Science', 'Python'],
-  },
-  {
-    title: 'Jupyter',
-    competency: 3,
-    category: ['Data Science', 'Python'],
-  },
-  {
-    title: 'Typescript',
-    competency: 2,
-    category: ['Web Development', 'Languages', 'Javascript'],
   },
   {
     title: 'HTML + SASS/SCSS/CSS',
-    competency: 3,
+    competency: 2,
     category: ['Web Development', 'Languages'],
   },
   {
@@ -124,73 +44,118 @@ const skills = [
   },
   {
     title: 'C++',
-    competency: 2,
-    category: ['Languages'],
-  },
-  {
-    title: 'Julia',
-    competency: 2,
-    category: ['Languages'],
-  },
-  {
-    title: 'MATLAB',
-    competency: 2,
+    competency: 5,
     category: ['Languages'],
   },
   {
     title: 'R',
-    competency: 2,
+    competency: 3,
+    category: ['Languages', 'Data Science'],
+  },
+  {
+    title: 'C',
+    competency: 5,
+    category: ['Languages', 'System'],
+  },
+  {
+    title: 'Redboot',
+    competency: 3,
+    category: ['Tools', 'System'],
+  },
+  {
+    title: 'ARM Assembly',
+    competency: 4,
+    category: ['Languages', 'System', 'Compiler'],
+  },
+  {
+    title: 'JCup',
+    competency: 4,
+    category: ['Languages', 'Compiler'],
+  },
+  {
+    title: 'JFlex',
+    competency: 4,
+    category: ['Languages', 'Compiler'],
+  },
+  {
+    title: 'X86 Assembly',
+    competency: 4,
+    category: ['Languages', 'Compiler', 'System'],
+  },
+  {
+    title: 'Docker',
+    competency: 4,
+    category: ['Tools'],
+  },
+  {
+    title: 'Rust',
+    competency: 3,
     category: ['Languages'],
   },
   {
-    title: 'Data Visualization',
+    title: 'Haskell',
     competency: 3,
-    category: ['Data Science', 'Javascript'],
+    category: ['Languages'],
   },
   {
-    title: 'GraphQL',
-    competency: 2,
-    category: ['Web Development', 'Databases'],
-  },
-  {
-    title: 'Pandas',
-    competency: 5,
-    category: ['Data Engineering', 'Data Science', 'Python'],
-  },
-  {
-    title: 'Matplotlib',
+    title: 'OCaml',
     competency: 3,
-    category: ['Data Engineering', 'Data Science', 'Python'],
+    category: ['Languages'],
   },
   {
-    title: 'Scikit-Learn',
+    title: 'Smalltalk',
+    competency: 3,
+    category: ['Languages'],
+  },
+  {
+    title: 'Prolog',
+    competency: 3,
+    category: ['Languages'],
+  },
+  {
+    title: 'Pascal',
+    competency: 3,
+    category: ['Languages'],
+  },
+  {
+    title: 'Erlang',
+    competency: 3,
+    category: ['Languages'],
+  },
+  {
+    title: 'OpenGL',
     competency: 4,
-    category: ['Data Engineering', 'Data Science', 'Python'],
+    category: ['Graphics', 'tools'],
   },
   {
-    title: 'Hadoop',
-    competency: 2,
-    category: ['Data Engineering', 'Data Science'],
-  },
-  {
-    title: 'Spark',
-    competency: 2,
-    category: ['Data Engineering', 'Data Science'],
-  },
-  {
-    title: 'Dagster',
-    competency: 2,
-    category: ['Data Engineering', 'Python'],
-  },
-  {
-    title: 'Mypy',
+    title: 'GLSL',
     competency: 3,
-    category: ['Python'],
+    category: ['Graphics', 'Languages'],
   },
   {
-    title: 'Pylint',
+    title: 'glm',
     competency: 4,
-    category: ['Data Engineering', 'Python'],
+    category: ['Graphics', 'tools'],
+  },
+  {
+    title: 'Ray Tracing',
+    competency: 4,
+    category: ['Graphics'],
+  },
+  {
+    title: 'GDB',
+    competency: 4,
+    category: ['tools', 'System'],
+  },
+  {
+    title: 'FUSE',
+    competency: 3,
+    category: ['tools', 'System'],
+  },
+  {
+    title: 'Ros',
+    competency: 3,
+    category: ['tools', 'System'],
   },
 ].map((skill) => ({ ...skill, category: skill.category.sort() }));
 
