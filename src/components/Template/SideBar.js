@@ -20,13 +20,19 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>Hi, I&apos;m Luke.
-        I just graduated from <a href="https://cs.uwaterloo.ca/">University of Waterloo Computer Science</a>. I was Undergraduate Research Assistant
+        I am a graduate from <a href="https://cs.uwaterloo.ca/">University of Waterloo majoring in Computer Science</a>. I was Undergraduate Research Assistant
         with <a href="https://plg.uwaterloo.ca/~pabuhr/">Prof. Peter Buhr</a> and <a href="https://cs.uwaterloo.ca/~mkarsten/">Prof. Martin Karsten</a> at the University of Waterloo in 2022.
         I was C++ R&D Intern at Baidu and Momenta in 2021.
       </p>
       <ul className="actions">
         <li>
-          {!window.location.pathname.includes('/resume') ? <Link to="/resume" className="button">Learn More</Link> : <Link to="/about" className="button">About Me</Link>}
+          <Link to="/files/Resume_Luke.pdf" target="_blank" className="button" download>Download Resume</Link>
+        </li>
+        <li>
+          <Link to="/files/PS_Luke.pdf" target="_blank" className="button" download>Download Personal Statement</Link>
+        </li>
+        <li>
+          <Link to="/files/reference_letter.pdf" target="_blank" className="button" download>Download Reference Letter</Link>
         </li>
       </ul>
     </section>
