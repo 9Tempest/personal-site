@@ -5,22 +5,12 @@ const skills = [
   {
     title: 'Bash',
     competency: 3,
-    category: ['Tools', 'Languages'],
-  },
-  {
-    title: 'PostgreSQL/SQLite3/SQL',
-    competency: 2,
-    category: ['Web Development', 'Databases', 'Languages'],
-  },
-  {
-    title: 'Flask',
-    competency: 2,
-    category: ['Web Development', 'Python'],
+    category: ['tools', 'Languages'],
   },
   {
     title: 'Git',
     competency: 4,
-    category: ['Tools'],
+    category: ['tools'],
   },
   {
     title: 'Numpy',
@@ -29,13 +19,8 @@ const skills = [
   },
   {
     title: 'Pytorch',
-    competency: 3,
+    competency: 4,
     category: ['Data Science', 'Python'],
-  },
-  {
-    title: 'HTML + SASS/SCSS/CSS',
-    competency: 2,
-    category: ['Web Development', 'Languages'],
   },
   {
     title: 'Python',
@@ -60,7 +45,7 @@ const skills = [
   {
     title: 'Redboot',
     competency: 3,
-    category: ['Tools', 'System'],
+    category: ['tools', 'System'],
   },
   {
     title: 'ARM Assembly',
@@ -71,6 +56,26 @@ const skills = [
     title: 'JCup',
     competency: 4,
     category: ['Languages', 'Compiler'],
+  },
+  {
+    title: 'LLVM',
+    competency: 5,
+    category: ['Compiler'],
+  },
+  {
+    title: 'MLIR',
+    competency: 5,
+    category: ['Compiler'],
+  },
+  {
+    title: 'TVM',
+    competency: 3,
+    category: ['Compiler'],
+  },
+  {
+    title: 'CompilerGym',
+    competency: 4,
+    category: ['Compiler'],
   },
   {
     title: 'JFlex',
@@ -85,7 +90,7 @@ const skills = [
   {
     title: 'Docker',
     competency: 4,
-    category: ['Tools'],
+    category: ['tools'],
   },
   {
     title: 'Rust',
@@ -138,18 +143,8 @@ const skills = [
     category: ['Graphics', 'tools'],
   },
   {
-    title: 'Ray Tracing',
-    competency: 4,
-    category: ['Graphics'],
-  },
-  {
     title: 'GDB',
     competency: 4,
-    category: ['tools', 'System'],
-  },
-  {
-    title: 'FUSE',
-    competency: 3,
     category: ['tools', 'System'],
   },
   {
@@ -171,8 +166,6 @@ const colors = [
   '#3896e2',
   '#c3423f',
   '#d75858',
-  '#747fff',
-  '#64cb7b',
 ];
 
 const categories = [

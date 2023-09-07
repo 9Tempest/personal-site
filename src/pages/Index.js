@@ -1,8 +1,8 @@
 import React from 'react';
-import Resume from './Resume';
+import About from './About';
 
 const Index = () => (
-  <Resume />
+  <About />
 );
 
 export default Index;

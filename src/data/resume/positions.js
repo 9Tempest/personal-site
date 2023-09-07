@@ -1,5 +1,16 @@
 const positions = [
   {
+    company: 'd-Matrix',
+    position: 'ML Compiler Intern',
+    link: 'https://www.d-matrix.ai/',
+    daterange: 'May 2023 - Sep 2023',
+    points: [
+      'Integrated StableHLO Dialect in d-Matrix Compiler under MLIR, achieving end-to-end testing of Large Language Model including BERT and GPT2 through StableHLO',
+      'Developed Reference Backend for high-level IR by leveraging Linalg Dialect in MLIR and Torch-MLIR, enabling testing the correctness of optimizations for high-level IR on CPU bypassing machine-level IR and hardware simulator',
+      'Collaborated on the development of d-Matrix’s DNN accelerator’s memory layout in high-level IR, extending support for tiling of MatMul within Vector Dialect in MLIR',
+    ],
+  },
+  {
     company: 'University of Waterloo',
     position: 'Undergraduate Research Assistant - Cforall',
     link: 'https://cforall.uwaterloo.ca/',

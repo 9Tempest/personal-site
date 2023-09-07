@@ -13,7 +13,7 @@ const data = [
     icon: faGithub,
   },
   {
-    link: 'https://facebook.com/md',
+    link: 'https://www.facebook.com/profile.php?id=100041304000755',
     label: 'Facebook',
     icon: faFacebookF,
   },
@@ -28,7 +28,7 @@ const data = [
     icon: faLinkedinIn,
   },
   {
-    link: 'mailto:lukezhu167@gmail.com',
+    link: 'mailto:lukezhuz@umich.edu',
     label: 'Email',
     icon: faEnvelope,
   },

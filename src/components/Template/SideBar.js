@@ -13,33 +13,21 @@ const SideBar = () => (
       </Link>
       <header>
         <h2>Luke Zhu</h2>
-        <p><a href="lukezhu167@gmail.com">lukezhu167@gmail.com</a></p>
+        <p><a href="lukezhuz@umich.edu">lukezhuz@umich.edu</a></p>
       </header>
     </section>
 
     <section className="blurb">
-      <h2>About</h2>
-      <p>Hi, I&apos;m Luke.
-        I am a graduate from <a href="https://cs.uwaterloo.ca/">University of Waterloo majoring in Computer Science</a>. I was Undergraduate Research Assistant
-        with <a href="https://plg.uwaterloo.ca/~pabuhr/">Prof. Peter Buhr</a> and <a href="https://cs.uwaterloo.ca/~mkarsten/">Prof. Martin Karsten</a> at the University of Waterloo in 2022.
-        I was C++ R&D Intern at Baidu and Momenta in 2021.
-      </p>
       <ul className="actions">
         <li>
-          <Link to="/files/Resume_Luke.pdf" target="_blank" className="button" download>Download Resume</Link>
-        </li>
-        <li>
-          <Link to="/files/PS_Luke.pdf" target="_blank" className="button" download>Download Personal Statement</Link>
-        </li>
-        <li>
-          <Link to="/files/reference_letter.pdf" target="_blank" className="button" download>Download Reference Letter</Link>
+          <a href="https://drive.google.com/file/d/15Nc6zQon3H12p7z2GaP8r6KAPjTnU_jc/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="button">View Resume</a>
         </li>
       </ul>
     </section>
 
     <section id="footer">
       <ContactIcons />
-      <p className="copyright">&copy; lukezhu167@gmail.com <Link to="/">lukezhu167@gmail.com</Link>.</p>
+      <p className="copyright">&copy; lukezhuz@umich.edu <Link to="/">lukezhuz@umich.edu</Link>.</p>
     </section>
   </section>
 );
