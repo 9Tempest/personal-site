@@ -1,6 +1,27 @@
 // TODO Add a couple lines about each project
 const data = [
   {
+    title: 'MIR-level throughput estimation model with Graph Neural Network',
+    subtitle: 'A research project for estimating throughput of a MIR basic block given its live intervals',
+    image: '/images/projects/IR-level_Cost_Model.png',
+    link: 'https://github.com/GranLte/granLte',
+    date: '2023-12-14',
+    desc:
+      'A MIR-level Basic Block inverse-throughput estimation model with Graph Neural Network. '
+      + ' To bridge the gap between infinite variables and finite registers, we construct graph representation with interference edges.'
+      + ' One novel methodology to collect LLVM IR basic block throughput is also presented. ',
+  },
+  {
+    title: 'Arbitrary N-way Out-of-Order superscalar RISC-V processor with R10K-style register renaming',
+    subtitle: 'A 5-stage OoO pipeline processor with R10K-style register renaming',
+    image: '/images/projects/A99.png',
+    link: 'https://github.com/9Tempest/A99Doc/blob/main/A99_report.pdf',
+    date: '2023-12-14',
+    desc:
+      'An efficient, innovative, and high-performing N-way Superscalar Out-of-Order RISC-V Processor cooperated in a group of six.'
+      + ' Key features include Early Tag Broadcast,Conservative Store-to-Load Forwarding, Victim Cache, GShare Branch predictor, Return Address Stack, and a K-way Non-blocking D-Cache.',
+  },
+  {
     title: 'User-level threading in C/C++',
     subtitle: 'Two methods of adding User-level threading into C/C++',
     image: '/images/projects/user-level.png',
